@@ -10,7 +10,7 @@ function App() {
 
         <div className="hero-text-content text-center my-0 mx-auto p-2.5">
           <h2 className="hero-heading font-extrabold mb-9">Learn, Build, Grow.</h2>
-          <p className="mb-4">Unlock your Brilliance with our hands-on <span> beginner </span> and <span> expert training. </span> 
+          <p className="text-base mb-4">Unlock your Brilliance with our hands-on <span> beginner </span> and <span> expert training. </span> 
             Zuri Team has been immensely successful in creating a global network of a highly adept 
             intelligent workforce that can help your company achieve their mission-critical <span>projects and goals</span>
           </p>
@@ -20,6 +20,8 @@ function App() {
           </div>
         </div>
       </section>
+
+      <section className='programs'></section>
     </>
   );
 }
