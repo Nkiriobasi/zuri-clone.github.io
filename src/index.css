@@ -16,6 +16,7 @@ span{
 }
 
 
+/* Hero */
 .hero-wrapper{
   width: 100%;
   height: 800px;
@@ -72,6 +73,32 @@ span{
   color: #E7332B;
 }
 
+
+
+/* Programs */
+.programs-text-content{
+  max-width: 1440px;
+  color: #514949;
+}
+
+.program-card-wrap{
+  max-width: 413.33px;
+}
+
+.program-card{
+  background: #FFFAFA;
+  padding: 61px 47px 82px 36px;
+  color: #212529;
+}
+
+
+
+
+@media only screen and (max-width: 1024px){
+  .program-card-wrap{
+    max-width: 100%;
+  }
+}
 
 
 @media only screen and (max-width: 768px){
