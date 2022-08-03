@@ -1,5 +1,4 @@
 import React from 'react'
-import '../styles/LandingPage.css';
 
 import zuriLogo from '../assets/zuri-logo-full.svg';
 import zuriTraining from '../assets/zuri-training-img.svg'
@@ -15,7 +14,7 @@ import { Link } from "react-router-dom";
 
 function LandingPage() {
   return (
-    <>
+    <main className='landing-page'>
       <section className='hero-wrapper'>
         <div className='hero-center-image flex justify-center'>
           <img src={zuriLogo} className='logo-img' alt="zuri logo" />
@@ -125,7 +124,7 @@ function LandingPage() {
           <p className='mt-8 mb-4 pb-24 font-bold'>© 2020 ZURI TEAM </p>
         </div>
       </footer>
-    </>
+    </main>
   );
 }
 

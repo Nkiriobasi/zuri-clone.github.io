@@ -1,6 +1,7 @@
 import LandingPage from "./Routes/LandingPage";
-import { Routes, Route } from "react-router-dom";
+import TrainingPage from "./Routes/TrainingPage";
 
+import { Routes, Route } from "react-router-dom";
 
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <>
       <Routes>
         <Route path="/" element={<LandingPage />} />
+        <Route path="/training" element={<TrainingPage />} />
       </Routes>
     </>
   );
