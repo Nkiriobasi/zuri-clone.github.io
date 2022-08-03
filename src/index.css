@@ -93,6 +93,21 @@ span{
 
 
 
+/* Footer */
+.footer{
+  max-width: 1240px;
+  margin: 215px auto 0;
+  color: #514949;
+}
+
+.hr-line{
+  border: 0.7px solid #514949;
+  opacity: 0.2;
+}
+
+
+
+
 
 @media only screen and (max-width: 1024px){
   .program-card-wrap{

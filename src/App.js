@@ -2,6 +2,10 @@ import zuriLogo from './assets/zuri-logo-full.svg';
 import zuriTraining from './assets/zuri-training-img.svg'
 import zuriInternship from './assets/zuri-internship-img.svg';
 import zuriTalent from './assets/zuri-talent-img.svg';
+import Fb from './assets/fb.png';
+import Twitter from './assets/twitter.png';
+import In from './assets/in.png';
+import IG from './assets/IG.png';
 
 
 function App() {
@@ -74,7 +78,48 @@ function App() {
       </section>
 
 
-      <footer className="footer"></footer>
+      <footer className="footer">
+        <div className="mb-14 p-5 flex md:flex-row flex-col md:items-start items-center justify-between">
+          <div className="item-1">
+            <img src={zuriLogo} alt="zuri logo" className="md:mb-0 mb-3.5 md:w-auto w-36" />
+          </div>
+          <div className="item-2 md:text-left text-center">
+            <h3 className="mb-2 font-bold md:text-base text-2xl md:mt-0 mt-5">Links</h3>
+            <p className="mb-4 cursor-pointer"><span>Store</span></p>
+            <p className="mb-4 cursor-pointer"><span>Blog</span></p>
+          </div>
+          <div className="item-3 md:text-left text-center">
+            <h3 className="mb-2 font-bold md:text-base text-2xl md:mt-0 mt-5">Contact</h3>
+            <p className="mb-4 text-sm">8 Jubliee-CMD Road, Magodo, <br /> Lagos State</p>
+            <p className="mb-4 text-sm cursor-pointer"><span>hello@zuri.team</span></p>
+          </div>
+          <div className="item-4 md:text-left text-center">
+            <h3 className="mb-2 font-bold md:text-base text-2xl md:mt-0 mt-5">Follow Us</h3>
+            <div className="contact-icons">
+              <a href="http://" target="_blank" rel="noopener noreferrer">
+                <img src={Fb} alt="facebook icon" className='w-5 inline-block mr-1.5' />
+              </a>
+              <a href="http://" target="_blank" rel="noopener noreferrer">
+                <img src={Twitter} alt="twitter icon" className='w-5 inline-block mr-1.5' />
+              </a>
+              <a href="http://" target="_blank" rel="noopener noreferrer">
+                <img src={IG} alt="instagram icon" className='w-5 inline-block mr-1.5' />
+              </a>
+              <a href="http://" target="_blank" rel="noopener noreferrer">
+                <img src={In} alt="linkedIn icon" className='w-5 inline-block mr-1.5' />
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <hr className='hr-line my-4' />
+        </div>
+
+        <div className="text-center mx-auto">
+          <p className='mt-8 mb-4 pb-24 font-bold'>© 2020 ZURI TEAM </p>
+        </div>
+      </footer>
     </>
   );
 }
