@@ -1,5 +1,5 @@
 import React from 'react'
-import './landingpage.css';
+import '../styles/landingpage.css';
 
 import zuriLogo from '../assets/zuri-logo-full.svg';
 import zuriTraining from '../assets/zuri-training-img.svg'
