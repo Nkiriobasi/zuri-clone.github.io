@@ -72,6 +72,9 @@ function App() {
           </div>
         </div>
       </section>
+
+
+      <footer className="footer"></footer>
     </>
   );
 }
