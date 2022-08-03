@@ -127,7 +127,7 @@ span{
 .bg{
   background: #E7332B;
   color: #ffffff;
-  border-radius: 0 100px 100px 0;
+  border-radius: 100px 100px 100px 100px;
 }
 
 .thumbs{
@@ -140,6 +140,63 @@ span{
 }
 
 
+
+/* First */
+.first-sec{
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-top: 200px;
+}
+
+.first-sec-wrapper{
+  display: flex;
+  align-items: center;
+}
+
+.first-red-text{
+  color: #E7332B;
+}
+
+.first-bold-text{
+  font-size: 3.375rem;
+}
+
+.wire{
+  margin: 0 40px 28px -20px;
+}
+
+.first-small-text{
+  color: #1B1A20;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1200px){
+  .first-sec-wrapper{
+    flex-direction: column;
+  }
+
+  .first-sec-item1{
+    width: 75%;
+  }
+
+  .first-sec-item2{
+    width: 100%;
+  }
+
+  .first-sec-item3{
+    display: none;
+  }
+
+  .first-bold-text{
+    font-size: 3rem;
+  }
+}
 
 
 @media only screen and (max-width: 1024px){
@@ -178,6 +235,20 @@ span{
   .thumbs{
     width: 60px;
     height: 60px;
-    margin-left: -42px;
+    margin-left: -40px;
+  }
+
+
+  /* First-sec */
+  .first-bold-text{
+    font-size: 2.375rem;
+  }
+}
+
+
+@media only screen and (max-width: 600px){
+  /* First-sec */
+  .first-bold-text{
+    font-size: 1.75rem;
   }
 }
