@@ -21,9 +21,9 @@ function LandingPage() {
         </div>
         <div className="hero-text-content text-center my-0 mx-auto p-2.5">
           <h2 className="hero-heading font-extrabold mb-9">Learn, Build, Grow.</h2>
-          <p className="text-base mb-4">Unlock your Brilliance with our hands-on <span> beginner </span> and <span> expert training. </span> 
+          <p className="text-base mb-4">Unlock your Brilliance with our hands-on <span className='red-text'> beginner </span> and <span className='red-text'> expert training. </span> 
             Zuri Team has been immensely successful in creating a global network of a highly adept 
-            intelligent workforce that can help your company achieve their mission-critical <span>projects and goals</span>
+            intelligent workforce that can help your company achieve their mission-critical <span className='red-text'>projects and goals</span>
           </p>
           <div className="btn-wrapper">
             <Link to="" className="btn btn-red mr-6">I'm new to the Industry</Link>
@@ -35,7 +35,7 @@ function LandingPage() {
 
       <section className='w-full h-auto'>
         <div className='programs-text-content text-center my-0 mx-auto px-3.5'>
-          <h3 className="text-sm md:mt-36 mt-16 mb-2"><span>BY ZURI Team</span></h3>
+          <h3 className="text-sm md:mt-36 mt-16 mb-2"><span className='red-text'>BY ZURI Team</span></h3>
           <p className="text-2xl mt-2 mb-16">We cather for every level of <br /> expertise and needs in the industry.</p>
 
           <div className="text-center w-auto">
@@ -48,7 +48,7 @@ function LandingPage() {
                       the aim here is to get you familiar enough with each the tools such that you’ll be 
                       able to continue learning on your own with minimal support.
                     </p>
-                    <h3 className="text-left text-sm mb-2 cursor-pointer"><span>I want to be trained &gt;</span></h3>
+                    <h3 className="text-left text-sm mb-2 cursor-pointer"><span className='red-text'>I want to be trained &gt;</span></h3>
                   </div>
                 </div>
               </div>
@@ -60,7 +60,7 @@ function LandingPage() {
                       from easy to hard as you progress from stage to stage, making it to the final stage 
                       means you are ready for actual work.  
                     </p>
-                    <h3 className="text-left text-sm mb-2 cursor-pointer"><span>I want to join the internship &gt;</span></h3>
+                    <h3 className="text-left text-sm mb-2 cursor-pointer"><span className='red-text'>I want to join the internship &gt;</span></h3>
                   </div>
                 </div>
               </div>
@@ -72,7 +72,7 @@ function LandingPage() {
                       individuals has become ever more challenging. Here is where Zuri Team comes into 
                       play to bring the best suited talent for your company
                     </p>
-                    <h3 className="text-left text-sm mb-2 cursor-pointer"><span>I am looking for talents &gt;</span></h3>
+                    <h3 className="text-left text-sm mb-2 cursor-pointer"><span className='red-text'>I am looking for talents &gt;</span></h3>
                   </div>
                 </div>
               </div> 
@@ -89,13 +89,13 @@ function LandingPage() {
           </div>
           <div className="item-2 md:text-left text-center">
             <h3 className="mb-2 font-bold md:text-base text-2xl md:mt-0 mt-5">Links</h3>
-            <p className="mb-4 cursor-pointer"><span>Store</span></p>
-            <p className="mb-4 cursor-pointer"><span>Blog</span></p>
+            <p className="mb-4 cursor-pointer"><span className='red-text'>Store</span></p>
+            <p className="mb-4 cursor-pointer"><span className='red-text'>Blog</span></p>
           </div>
           <div className="item-3 md:text-left text-center">
             <h3 className="mb-2 font-bold md:text-base text-2xl md:mt-0 mt-5">Contact</h3>
             <p className="mb-4 text-sm">8 Jubliee-CMD Road, Magodo, <br /> Lagos State</p>
-            <p className="mb-4 text-sm cursor-pointer"><span>hello@zuri.team</span></p>
+            <p className="mb-4 text-sm cursor-pointer"><span className='red-text'>hello@zuri.team</span></p>
           </div>
           <div className="item-4 md:text-left text-center">
             <h3 className="mb-2 font-bold md:text-base text-2xl md:mt-0 mt-5">Follow Us</h3>

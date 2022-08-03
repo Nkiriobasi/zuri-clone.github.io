@@ -7,8 +7,7 @@ import Lady1 from '../assets/lady1.jpeg';
 import Line from '../assets/line.svg';
 import Section1Wire from '../assets/section1wire.svg';
 import Male1 from '../assets/male1.jpeg';
-
-// import Ingresive from '../assets/ingresive.jpeg';
+import Ingresive from '../assets/ingresive.jpeg';
 
 const TrainingPage = () => {
   return (
@@ -29,6 +28,7 @@ const TrainingPage = () => {
           </nav>
         </div>
       </header>
+
 
       <section className="first-sec flex 2xl:px-0 px-8">
         <div className="first-sec-wrapper">
@@ -61,6 +61,31 @@ const TrainingPage = () => {
             </div>
           </div>
         </div>
+      </section>
+
+
+      <section className="second-sec pt-12 h-auto 2xl:px-0 px-8">
+        <hr className='hr-line' />
+        <div className="second-sec-wrapper flex items-center justify-center">
+          <div className="second-sec-items w-1/3">
+            <div className=''>
+              <p className="second-sec-p-bold-text lg:text-2xl text-xl font-bold uppercase">Ingressive for Good was launched in July 2020 with No dollar in donation...</p>
+            </div>
+          </div>
+
+          <div className="second-sec-items w-1/3">
+            <div className="flex justify-center">
+              <img src={Ingresive} alt="ingresive logo" className='xl:w-72 w-56' />
+            </div>
+          </div>
+
+          <div className="second-sec-items w-1/3">
+            <p className="second-sec-p-light-text xl:text-2xl lg:text-xl lg text-right">to help increase the earning power of African youths by providing them with tech 
+              skills, community, tools, resources, and jobs... <br /><span className="green-text underline">Read More</span>
+            </p>
+          </div>
+        </div>
+        <hr className='hr-line' />
       </section>
     </main>
   );

@@ -22,7 +22,7 @@
   color: #212529;
 }
 
-span{
+.red-text{
   color: #E7332B;
 }
 
@@ -141,7 +141,7 @@ span{
 
 
 
-/* First */
+/* First-sec */
 .first-sec{
   max-width: 1440px;
   margin: 0 auto;
@@ -169,6 +169,16 @@ span{
   color: #1B1A20;
 }
 
+
+/* Second-sec */
+.second-sec{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.green-text{
+  color: #43B97F;
+}
 
 
 
@@ -199,9 +209,34 @@ span{
 }
 
 
+
 @media only screen and (max-width: 1024px){
   .program-card-wrap{
     max-width: 100%;
+  }
+}
+
+
+
+@media only screen and (max-width: 900px){
+  .second-sec-wrapper{
+    flex-direction: column;
+  }
+
+  .second-sec-items{
+    width: 100%;
+  }
+
+  .second-sec-p-bold-text{
+    padding-top: 1.875rem;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  .second-sec-p-light-text{
+    font-size: 1.25rem;
+    padding-top: 1.875rem;
+    padding-bottom: 2.5rem;
   }
 }
 
@@ -250,5 +285,10 @@ span{
   /* First-sec */
   .first-bold-text{
     font-size: 1.75rem;
+  }
+
+  /* Second-sec */
+  .second-sec-p-light-text{
+    text-align: center;
   }
 }
