@@ -8,6 +8,9 @@ import Line from '../assets/line.svg';
 import Section1Wire from '../assets/section1wire.svg';
 import Male1 from '../assets/male1.jpeg';
 import Ingresive from '../assets/ingresive.jpeg';
+import Section3Wire from '../assets/section3wire.svg';
+import Star from '../assets/Star.jpeg';
+
 
 const TrainingPage = () => {
   return (
@@ -39,7 +42,7 @@ const TrainingPage = () => {
           </div>
 
           <div className="first-sec-item2 text-center w-6/12">
-            <p className='first-red-text text-lg'>And now your search has ended...</p>
+            <p className='red-text text-lg'>And now your search has ended...</p>
             <p className='first-bold-text pt-2.5 font-bold'>Gain knowledge to help you scale through the tech industry for free.</p>
             <div className='wire flex justify-end'>
               <img src={Line} alt="line" className='md:w-64 w-36' />
@@ -64,7 +67,7 @@ const TrainingPage = () => {
       </section>
 
 
-      <section className="second-sec pt-12 h-auto 2xl:px-0 px-8">
+      <section className="second-sec pt-12 h-auto 2xl:px-0 px-8" id="about">
         <hr className='hr-line' />
         <div className="second-sec-wrapper flex items-center justify-center">
           <div className="second-sec-items w-1/3">
@@ -81,11 +84,34 @@ const TrainingPage = () => {
 
           <div className="second-sec-items w-1/3">
             <p className="second-sec-p-light-text xl:text-2xl lg:text-xl lg text-right">to help increase the earning power of African youths by providing them with tech 
-              skills, community, tools, resources, and jobs... <br /><span className="green-text underline">Read More</span>
+              skills, community, tools, resources, and jobs... <span className="green-text underline cursor-pointer">Read More</span>
             </p>
           </div>
         </div>
         <hr className='hr-line' />
+      </section>
+
+
+      <section className="third-sec pt-12 h-auto 2xl:px-0 px-8" id="why-us">
+        <div className="third-sec-wrapper flex items-end justify-between">
+          <div className='third-sec-col max-w-3xl'>
+            <div className='flex justify-center items-center'>
+              <img src={Section3Wire} alt="section3wire" className='section3wire' />
+            </div>
+            <div>
+              <p className='third-sec-sm-text red-text text-2xl'>Why Zuri Training</p>
+              <p className='third-sec-bold-text font-bold'>Here at Zuri, you gain access to enough 
+                knowledge to introduce and aid your success in the tech industry.
+              </p>
+            </div>
+          </div>
+
+          <div className='w-full h-72 flex justify-center items-end'>
+            <div className='mb-5'>
+              <img src={Star} alt="star" className='star' />
+            </div>
+          </div>
+        </div>
       </section>
     </main>
   );
