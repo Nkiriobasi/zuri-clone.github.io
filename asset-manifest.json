@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/zuriclone/static/css/main.a0fdbd26.css",
-    "main.js": "/zuriclone/static/js/main.abf96914.js",
+    "main.js": "/zuriclone/static/js/main.cc56d1e4.js",
     "static/js/787.bd0d3fb6.chunk.js": "/zuriclone/static/js/787.bd0d3fb6.chunk.js",
     "static/media/lady1.jpeg": "/zuriclone/static/media/lady1.0f909780828f89f6bd50.jpeg",
     "static/media/male1.jpeg": "/zuriclone/static/media/male1.f2374e3f612cb37f1d7c.jpeg",
@@ -24,11 +24,11 @@
     "static/media/curve2.svg": "/zuriclone/static/media/curve2.ddc06b7223b0a84a9b552e38dc80fe69.svg",
     "static/media/curve3.svg": "/zuriclone/static/media/curve3.5ffa1f5ddaaff67d13bf5d8d3d7b2387.svg",
     "main.a0fdbd26.css.map": "/zuriclone/static/css/main.a0fdbd26.css.map",
-    "main.abf96914.js.map": "/zuriclone/static/js/main.abf96914.js.map",
+    "main.cc56d1e4.js.map": "/zuriclone/static/js/main.cc56d1e4.js.map",
     "787.bd0d3fb6.chunk.js.map": "/zuriclone/static/js/787.bd0d3fb6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a0fdbd26.css",
-    "static/js/main.abf96914.js"
+    "static/js/main.cc56d1e4.js"
   ]
 }
