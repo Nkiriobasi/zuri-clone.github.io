@@ -7,10 +7,11 @@ import { Routes, Route } from "react-router-dom";
 function App() {
   return (
     <>
-      <Routes>
+      <LandingPage />
+      {/* <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/training" element={<TrainingPage />} />
-      </Routes>
+      </Routes> */}
     </>
   );
 }
