@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300;400;700&family=Roboto:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300;400;700&family=Roboto:wght@300;400;500;700;900&display=swap');
 
 
 @tailwind base;
@@ -112,11 +112,17 @@
 
 
 
-/* Training */
+
+/* Training-page */
 .training-page{
   background: #FFFDF5;
   color: #585757;
   font-family: 'Roboto', sans-serif;
+}
+
+.container{
+  max-width: 1440px;
+  margin: auto;
 }
 
 .header-container{
@@ -142,15 +148,10 @@
 
 
 /* First-sec */
-.first-sec{
-  max-width: 1440px;
-  margin: 0 auto;
-  padding-top: 200px;
-}
-
 .first-sec-wrapper{
   display: flex;
   align-items: center;
+  padding-top: 200px;
 }
 
 .first-bold-text{
@@ -166,23 +167,16 @@
 }
 
 
-/* Second-sec */
-.second-sec{
-  max-width: 1440px;
-  margin: 0 auto;
-}
 
+/* Second-sec */
 .green-text{
   color: #43B97F;
 }
 
 
-/* Third-sec */
-.third-sec{
-  max-width: 1440px;
-  margin: 0 auto;
-}
 
+
+/* Third-sec */
 .section3wire{
   max-width: 7.875rem;
   height: auto;
@@ -197,6 +191,51 @@
   height: auto;
 }
 
+
+
+/* fourth-sec */
+.fourth-sec{
+  background: linear-gradient(180deg,rgba(255,244,240,0),#fff4f0 17.19%,#fff4f0 84.37%,rgba(255,244,240,0))!important;
+}
+
+.fourth-sec-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: row wrap;
+}
+
+.fs-box-wrap{
+  max-width: 33.3333%;
+}
+
+.fs-box1{
+  background: #E7332B;
+  color: #ffffff;
+}.fs-box1:hover{
+  transform: translateY(-15px);
+}
+
+.fs-box2{
+  background: #ffffff;
+}.fs-box2:hover{
+  transform: translateY(-15px);
+}
+
+.fs-box1, .fs-box2{
+  box-shadow: 0 11px 22px rgb(231 51 43 / 10%);
+  padding: 58px 48px 92px 50px;
+  border-radius: 1.25rem;
+  transition: all .3s ease;
+}
+
+.fs-box-img{
+  margin-top: -58px;
+  width: 32%;
+}
+
+.fs-box-text{
+  color: #1B1A20;
+}
 
 
 
@@ -228,6 +267,12 @@
 
   .third-sec-bold-text{
     font-size: 1.875rem;
+  }
+
+
+  
+  .fourth-sec-wrapper{
+    /* flex-flow: column wrap; */
   }
 }
 

@@ -10,6 +10,12 @@ import Male1 from '../assets/male1.jpeg';
 import Ingresive from '../assets/ingresive.jpeg';
 import Section3Wire from '../assets/section3wire.svg';
 import Star from '../assets/Star.jpeg';
+import curve1 from '../assets/curve1.png';
+import curve2 from '../assets/curve2.svg';
+import curve3 from '../assets/curve3.svg';
+import curve4 from '../assets/curve4.svg';
+import curve5 from '../assets/curve5.svg';
+import curve6 from '../assets/curve6.svg';
 
 
 const TrainingPage = () => {
@@ -34,7 +40,7 @@ const TrainingPage = () => {
 
 
       <section className="first-sec flex 2xl:px-0 px-8">
-        <div className="first-sec-wrapper">
+        <div className="first-sec-wrapper container">
           <div className="first-sec-item1 w-3/12">
             <div>
               <img src={Lady1} alt="lady" />
@@ -67,7 +73,8 @@ const TrainingPage = () => {
       </section>
 
 
-      <section className="second-sec pt-12 h-auto 2xl:px-0 px-8" id="about">
+      <section className="flex h-auto 2xl:px-0 px-8" id="about">
+        <div className="container pt-12">
         <hr className='hr-line' />
         <div className="second-sec-wrapper flex items-center justify-center">
           <div className="second-sec-items w-1/3">
@@ -89,11 +96,12 @@ const TrainingPage = () => {
           </div>
         </div>
         <hr className='hr-line' />
+        </div>
       </section>
 
 
-      <section className="third-sec pt-12 h-auto 2xl:px-0 px-8" id="why-us">
-        <div className="third-sec-wrapper flex items-end justify-between">
+      <section className="h-auto flex 2xl:px-0 px-8" id="why-us">
+        <div className="third-sec-wrapper container pt-12 flex items-end justify-between">
           <div className='third-sec-col max-w-3xl'>
             <div className='flex justify-center items-center'>
               <img src={Section3Wire} alt="section3wire" className='section3wire' />
@@ -109,6 +117,65 @@ const TrainingPage = () => {
           <div className='w-full h-72 flex justify-center items-end'>
             <div className='mb-5'>
               <img src={Star} alt="star" className='star' />
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section className="fourth-sec flex h-auto 2xl:px-0 px-8">
+        <div className="fourth-sec-wrapper container pt-12">
+          <div className="fs-box-wrap fs-box-wrap-bg 2xl:basis-1/3 grow-0 pt-6 pl-6">
+            <div className="fs-box1 relative">
+              <img src={curve1} alt="curve" className="fs-box-img absolute right-0" />
+              <p className="text-6xl font-bold">01</p>
+              <p className="text-4xl pt-8 pb-9 font-bold">Fully <br /> Remote</p>
+              <p className="text-lg font-normal">100% online classes available to anyone in the world.</p>
+            </div>
+          </div>
+
+          <div className="fs-box-wrap 2xl:basis-1/3 grow-0 pt-6 pl-6">
+            <div className="fs-box2 relative">
+              <img src={curve2} alt="curve" className="fs-box-img absolute right-0" />
+              <p className="text-6xl font-bold">02</p>
+              <p className="fs-box-text text-4xl pt-8 pb-9 font-medium">Hands-On <br /> Experience</p>
+              <p className="fs-box-text text-lg font-normal">We don't just teach you theory, we show you how to build things.</p>
+            </div>
+          </div>
+
+          <div className="fs-box-wrap 2xl:basis-1/3 grow-0 pt-6 pl-6">
+            <div className="fs-box2 relative">
+              <img src={curve3} alt="curve" className="fs-box-img absolute right-0" />
+              <p className="text-6xl font-bold">03</p>
+              <p className="fs-box-text text-4xl pt-8 pb-9 font-medium">Collaborative <br /> Learning</p>
+              <p className="fs-box-text text-lg font-normal">We connect you with like minds to grow together.</p>
+            </div>
+          </div>
+
+          <div className="fs-box-wrap 2xl:basis-1/3 grow-0 pt-6 pl-6">
+            <div className="fs-box2 relative">
+              <img src={curve4} alt="curve" className="fs-box-img absolute right-0" />
+              <p className="text-6xl font-bold">04</p>
+              <p className="fs-box-text text-4xl pt-8 pb-9 font-medium">Real-life <br /> Projects</p>
+              <p className="fs-box-text text-lg font-normal">We give CV worthy projects to help you hit the ground running.</p>
+            </div>
+          </div>
+
+          <div className="fs-box-wrap 2xl:basis-1/3 grow-0 pt-6 pl-6">
+            <div className="fs-box2 relative">
+              <img src={curve5} alt="curve" className="fs-box-img absolute right-0" />
+              <p className="text-6xl font-bold">05</p>
+              <p className="fs-box-text text-4xl pt-8 pb-9 font-medium">Beginner <br /> Friendly</p>
+              <p className="fs-box-text text-lg font-normal">We provide step-by-step procedures on how to get things done.</p>
+            </div>
+          </div>
+
+          <div className="fs-box-wrap 2xl:basis-1/3 grow-0 pt-6 pl-6">
+            <div className="fs-box2 relative">
+              <img src={curve6} alt="curve" className="fs-box-img absolute right-0" />
+              <p className="text-6xl font-bold">06</p>
+              <p className="fs-box-text text-4xl pt-8 pb-9 font-medium">In-Program <br /> Mentorship</p>
+              <p className="fs-box-text text-lg font-normal">During and after the program you have access to experience seniors.</p>
             </div>
           </div>
         </div>
