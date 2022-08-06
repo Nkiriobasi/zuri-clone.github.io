@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6b153467.css",
+    "main.js": "/static/js/main.2496cae8.js",
+    "static/js/787.df846b8e.chunk.js": "/static/js/787.df846b8e.chunk.js",
+    "static/media/lady1.jpeg": "/static/media/lady1.0f909780828f89f6bd50.jpeg",
+    "static/media/male1.jpeg": "/static/media/male1.f2374e3f612cb37f1d7c.jpeg",
+    "static/media/logo.svg": "/static/media/logo.66231ee20c8825641093a2f7873ef11e.svg",
+    "static/media/Star.jpeg": "/static/media/Star.9d53747af13b306258ff.jpeg",
+    "static/media/ingresive.jpeg": "/static/media/ingresive.396b9bf2d479bceb3e14.jpeg",
+    "static/media/thumbs.png": "/static/media/thumbs.025861ce6e78c3bfe06a.png",
+    "static/media/zuri-internship-img.svg": "/static/media/zuri-internship-img.ae4218a9568361d766b5c3276b4bf8fc.svg",
+    "static/media/zuri-training-img.svg": "/static/media/zuri-training-img.c1374ed8f5fcb9c35e71bb6fbf191695.svg",
+    "static/media/zuri-logo-full.svg": "/static/media/zuri-logo-full.69646180dba126cd1b131bfa03e597b3.svg",
+    "static/media/zuri-talent-img.svg": "/static/media/zuri-talent-img.77f79b4796b4063af07e3a5c2e386620.svg",
+    "static/media/section3wire.svg": "/static/media/section3wire.47012f4b68df650bd08505c457466acb.svg",
+    "static/media/hero-bg.svg": "/static/media/hero-bg.98d003fe3e3a03182a30.svg",
+    "static/media/section1wire.svg": "/static/media/section1wire.aa9f8594e7513009e550cb54eaf1621f.svg",
+    "static/media/line.svg": "/static/media/line.7c203e24c10e87cd479d9be8d9ead36f.svg",
+    "index.html": "/index.html",
+    "static/media/curve4.svg": "/static/media/curve4.c46c7bdc9688829c6ae6efdd518e830a.svg",
+    "static/media/curve5.svg": "/static/media/curve5.bd4bab7f8a889085a26c44a9a56232fa.svg",
+    "static/media/curve6.svg": "/static/media/curve6.95562d578a1f1ed02ac0bd84b98f78af.svg",
+    "static/media/curve2.svg": "/static/media/curve2.ddc06b7223b0a84a9b552e38dc80fe69.svg",
+    "static/media/curve3.svg": "/static/media/curve3.5ffa1f5ddaaff67d13bf5d8d3d7b2387.svg",
+    "main.6b153467.css.map": "/static/css/main.6b153467.css.map",
+    "main.2496cae8.js.map": "/static/js/main.2496cae8.js.map",
+    "787.df846b8e.chunk.js.map": "/static/js/787.df846b8e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6b153467.css",
+    "static/js/main.2496cae8.js"
+  ]
+}
