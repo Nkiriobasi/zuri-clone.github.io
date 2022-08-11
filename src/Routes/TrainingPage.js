@@ -9,6 +9,7 @@ import Section1Wire from '../assets/section1wire.svg';
 import Male1 from '../assets/male1.jpeg';
 import Ingresive from '../assets/ingresive.jpeg';
 import Section3Wire from '../assets/section3wire.svg';
+import Section5Wire from '../assets/section5wire.svg';
 import Star from '../assets/Star.jpeg';
 import curve1 from '../assets/curve1.png';
 import curve2 from '../assets/curve2.svg';
@@ -16,27 +17,36 @@ import curve3 from '../assets/curve3.svg';
 import curve4 from '../assets/curve4.svg';
 import curve5 from '../assets/curve5.svg';
 import curve6 from '../assets/curve6.svg';
+import Section5Img from '../assets/section5-image.png';
+import dotsection5 from '../assets/dotsection5.svg';
+import hand from '../assets/hand.svg';
+import mentor from '../assets/mentor.svg';
+import practice from '../assets/practice.svg';
+import games from '../assets/games.svg';
+
 
 
 const TrainingPage = () => {
   return (
     <main className='training-page'>
-      <header className='w-full py-3.5 md:px-8 px-6 my-3 fixed top-0 z-50'>
-        <div className='header-container flex justify-between items-center'>
-          <img src={Logo} alt="logo" className='cursor-pointer xl:w-72 md:w-56 sm:w-40 w-32' />
+      <div>
+        <header className='header w-full fixed top-0 z-10 py-3.5 md:px-8 px-6'>
+          <div className='header-container flex justify-between items-center'>
+            <img src={Logo} alt="logo" className='cursor-pointer xl:w-72 md:w-56 sm:w-40 w-32' />
 
-          <nav className='inline-flex items-center'>
-            <li className='cursor-pointer list-none text-lg mr-8 py-1.5 px-2 font-normal lg:inline-flex hidden'>About</li>
-            <li className='cursor-pointer list-none text-lg mr-8 py-1.5 px-2 font-normal lg:inline-flex hidden'>Why Us?</li>
-            <li className='cursor-pointer list-none text-lg mr-8 py-1.5 px-2 font-normal lg:inline-flex hidden'>Stacks Covered</li>
-            <li className='cursor-pointer list-none text-lg mr-24 py-1.5 px-2 font-normal lg:inline-flex hidden'>FAQs</li>
-            <div className='cursor-pointer inline-flex items-center w-auto'>
-              <img src={Thumbs} alt="thumbs icon" className='thumbs w-14 absolute' />
-              <li className='bg cursor-pointer list-none text-lg py-2.5 md:px-8 px-5 font-normal inline-flex'>Enroll Now</li>
-            </div>
-          </nav>
-        </div>
-      </header>
+            <nav className='flex items-center'>
+              <li className='cursor-pointer list-none text-lg mr-8 py-1.5 px-2 font-normal lg:inline-flex hidden'>About</li>
+              <li className='cursor-pointer list-none text-lg mr-8 py-1.5 px-2 font-normal lg:inline-flex hidden'>Why Us?</li>
+              <li className='cursor-pointer list-none text-lg mr-8 py-1.5 px-2 font-normal lg:inline-flex hidden'>Stacks Covered</li>
+              <li className='cursor-pointer list-none text-lg mr-24 py-1.5 px-2 font-normal lg:inline-flex hidden'>FAQs</li>
+              <div className='cursor-pointer inline-flex items-center w-auto'>
+                <img src={Thumbs} alt="thumbs icon" className='thumbs w-14 absolute' />
+                <li className='bg cursor-pointer list-none text-lg py-2.5 md:px-8 px-5 font-normal inline-flex'>Enroll Now</li>
+              </div>
+            </nav>
+          </div>
+        </header>
+      </div>
 
 
       <section className="first-sec flex 2xl:px-0 px-8">
@@ -178,6 +188,77 @@ const TrainingPage = () => {
               <p className="fs-box-text text-lg font-normal">During and after the program you have access to experience seniors.</p>
             </div>
           </div>
+        </div>
+      </section>
+
+
+      <section className='fifth-sec mt-36' id="stacks-covered">
+        <div className='container fifth-sec-wrapper pt-12 flex xl:flex-row flex-col xl:px-0 px-8'>
+          <div className='xl:w-7/12 w-full text-white pt-6 pl-6'>
+            <div className='flex justify-end items-center w-full'>
+              <img src={Section5Wire} alt="img" className='section3wire mr-32' />
+            </div>
+            <p className='text-lg'>We will help you get started</p>
+            <p className='xl:text-5xl text-3xl font-medium xl:w-4/5 w-full'>High quality training with hands-on practice</p>
+            <p className='xl:pt-10 pt-9 xl:max-w-sm w-full text-lg'>We give you weekly tasks, ranging from easy to complex, as you progress from stage to stage 
+              making it to the final stage means you are now ready to continue learning and growing independently.
+            </p>
+            <button className='py-2 px-7 fifth-sec-btn text-center justify-center inline-flex'>Enroll Now</button>
+            <div className='grid grid-cols-2'>
+              <div className='pt-6 pl-6 w-full'>
+                <button className='w-60 flex items-center justify-start py-2.5 pr-12 pl-3.5 border-2 border-solid border-stone-50 rounded-3xl'>
+                  <img src={hand} alt='hand img' className='pr-2 fifth-sec-btn-img' />
+                  <p>Teamwork</p>
+                </button>
+              </div>
+              <div className='pt-6 pl-6 w-full'>
+                <button className='w-60 flex items-center justify-start py-2.5 pr-12 pl-3.5 border-2 border-solid border-white rounded-3xl'>
+                  <img src={mentor} alt='mentor img' className='pr-2 fifth-sec-btn-img' />
+                  <p>Mentorship</p>
+                </button>
+              </div>
+              <div className='pt-6 pl-6 w-full'>
+                <button className='w-60 flex items-center justify-start py-2.5 pr-12 pl-3.5 border-2 border-solid border-white rounded-3xl'>
+                  <img src={practice} alt='practice img' className='pr-2 fifth-sec-btn-img' />
+                  <p>practice</p>
+                </button>
+              </div>
+              <div className='pt-6 pl-6 w-full'>
+                <button className='w-60 flex items-center justify-start py-2.5 pr-12 pl-3.5 border-2 border-solid border-white rounded-3xl'>
+                  <img src={games} alt='games img' className='pr-2 fifth-sec-btn-img' />
+                  <p>Fun & Games</p>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div className='max-w-full pt-6 pl-6'>
+            <div>
+              <img src={Section5Img} alt="img" className='inline-flex' />
+            </div>
+          </div>
+        </div>
+
+        <div className='max-w-full'>
+          <img src={dotsection5} alt="img" className='p-9 inline-flex' />
+        </div>
+      </section>
+
+
+      <section className='sixth-sec'>
+        <div className='container pt-16'>
+          <div className='flex'>
+            <div className='w-1/2 pt-6 pl-6'>
+              <div>
+                <p className=' text-2xl red-text'>Scope Of Program</p>
+                <p className='sixth-sec-bold-text text-5xl font-bold'>Here is the list of areas that will be explored in the training</p>
+              </div>
+            </div>
+            <div className='w-1/2 pt-6 pl-6'></div>
+          </div>
+          <div></div>
+          <div></div>
+          <div></div>
         </div>
       </section>
     </main>

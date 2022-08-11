@@ -120,6 +120,10 @@
   font-family: 'Roboto', sans-serif;
 }
 
+.header{
+  background: #FFFDF5;
+}
+
 .container{
   max-width: 1440px;
   margin: auto;
@@ -238,6 +242,35 @@
 }
 
 
+
+
+/* Fifth-sec */
+.fifth-sec{
+  background: #E7332B;
+}
+
+.fifth-sec-btn{
+  width: 9.375rem;
+  margin: 30px 0 40px;
+  background: #fff;
+  border-radius: 100px;
+  color: #E7332B;
+}
+
+.fifth-sec-btn-img{
+  width: 51px;
+  height: 42px;
+}
+
+
+
+/* Sixth-sec */
+.sixth-sec-bold-text{
+  max-width: 700px;
+  line-height: 1.125;
+  height: auto;
+  color: #1B1A20;
+}
 
 
 

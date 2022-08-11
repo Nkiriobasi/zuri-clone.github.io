@@ -26,7 +26,7 @@ function LandingPage() {
             intelligent workforce that can help your company achieve their mission-critical <span className='red-text'>projects and goals</span>
           </p>
           <div className="btn-wrapper">
-            <Link to="" className="btn btn-red mr-6">I'm new to the Industry</Link>
+            <Link to="/training" className="btn btn-red mr-6">I'm new to the Industry</Link>
             <Link to="" className='btn'>I need industry experience</Link>
           </div>
         </div>
