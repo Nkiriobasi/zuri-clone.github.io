@@ -265,12 +265,27 @@
 
 
 /* Sixth-sec */
+.sixth-sec{
+  background: linear-gradient(180deg,rgba(255,244,240,0),#fff4f0 17.19%,#fff4f0 84.37%,rgba(255,244,240,0))!important;
+}
+
 .sixth-sec-bold-text{
   max-width: 700px;
   line-height: 1.125;
   height: auto;
   color: #1B1A20;
 }
+
+.s-box{
+  box-shadow: 0 11px 22px rgba(231,51,43,.1);
+  border-radius: 41px;
+}
+
+.s-bold-text{
+  color: #1B1A20;
+}
+
+
 
 
 

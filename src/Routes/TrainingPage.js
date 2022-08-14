@@ -23,6 +23,20 @@ import hand from '../assets/hand.svg';
 import mentor from '../assets/mentor.svg';
 import practice from '../assets/practice.svg';
 import games from '../assets/games.svg';
+import section6 from '../assets/section6.svg';
+import html from '../assets/html.svg';
+import css from '../assets/css.svg';
+import javascript from '../assets/javascript.svg';
+import php from '../assets/php.svg';
+import python from '../assets/python.svg';
+import adobeXd from '../assets/adobeXd.svg';
+import figma from '../assets/Figma.svg';
+import ubuntu from '../assets/Ubuntu.svg';
+import bash from '../assets/bash.svg';
+import aws from '../assets/aws.svg';
+import laravel from '../assets/Laravel.svg';
+import react from '../assets/React.svg';
+import django from '../assets/Django.svg';
 
 
 
@@ -256,9 +270,98 @@ const TrainingPage = () => {
             </div>
             <div className='w-1/2 pt-6 pl-6'></div>
           </div>
-          <div></div>
-          <div></div>
-          <div></div>
+
+          <div className='flex w-full justify-center items-center'>
+            <img src={section6} alt="img" className="w-44" />
+          </div>
+          
+          <div className='flex items-center flex-wrap'>
+            <div className="pt-6 pl-6 w-1/3">
+              <div className="s-box bg-white p-10">
+                <p className='s-bold-text font-bold pb-5 text-xl'>Frontend Development</p>
+                <div className='w-full flex justify-start items-center'>
+                  <img src={html} alt="html" className='pr-3.5 inline-flex w-11 h-11' />
+                  <img src={css} alt="css" className='pr-3.5 inline-flex w-11 h-11' />
+                  <img src={javascript} alt="javascript" className='inline-flex w-11 h-11' />
+                </div>
+                <p className="pt-10 pb-8 mb-1.5">This track deals with the aspect of your application that the users interact with. 
+                  A front-end developer will be able to correctly interpret a given design to the user 
+                  interface.
+                </p>
+              </div>
+            </div>
+            <div className="pt-6 pl-6 w-1/3">
+              <div className="s-box bg-white p-10">
+                <p className='s-bold-text font-bold pb-5 text-xl'>Backend Development</p>
+                <div className='w-full flex justify-start items-center'>
+                  <img src={php} alt="php" className='pr-3.5 inline-flex w-11 h-11' />
+                  <img src={python} alt="python" className='pr-3.5 inline-flex w-11 h-11' />
+                  <img src={javascript} alt="javascript" className='inline-flex w-11 h-11' />
+                </div>
+                <p className="pt-10 pb-8 mb-1.5">This track deals with the aspect of the application the user does not directly interact 
+                  with. It allows the frontend function either by running some back-end code or connecting 
+                  to the database.
+                </p>
+              </div>
+            </div>
+            <div className="pt-6 pl-6 w-1/3">
+              <div className="s-box bg-white p-10">
+                <p className='s-bold-text font-bold pb-5 text-xl'>Product Design</p>
+                <div className='w-full flex justify-start items-center'>
+                  <img src={adobeXd} alt="adobeXd" className='pr-3.5 inline-flex w-11 h-11' />
+                  <img src={figma} alt="figma" className='inline-flex w-11 h-11' />
+                </div>
+                <p className="pt-10 pb-8 mb-1.5">This track deals with creating a graphic plan for an application. You will learn to convert 
+                  project documentation into viewable and understandable graphic design for the developers to 
+                  work with.
+                </p>
+              </div>
+            </div>
+            <div className="pt-6 pl-6 w-1/3">
+              <div className="s-box bg-white p-10">
+                <p className='s-bold-text font-bold pb-5 text-xl'>DevOPS</p>
+                <div className='w-full flex justify-start items-center'>
+                  <img src={ubuntu} alt="ubuntu" className='pr-3.5 inline-flex w-11 h-11' />
+                  <img src={bash} alt="bash" className='pr-3.5 inline-flex w-11 h-11' />
+                  <img src={aws} alt="aws" className='inline-flex w-11 h-11' />
+                </div>
+                <p className="pt-10 pb-8 mb-1.5">The DevOps track is an extension of the backend track. It involves tools that’ll allow the 
+                  participant to deploy solutions for public use.
+                </p>
+              </div>
+            </div>
+            <div className="pt-6 pl-6 w-1/3">
+              <div className="s-box bg-white p-10">
+                <p className='s-bold-text font-bold pb-5 text-xl'>Fullstack Development</p>
+                <div className='w-full flex justify-start items-center'>
+                  <img src={html} alt="html" className='pr-3.5 inline-flex w-11 h-11' />
+                  <img src={css} alt="css" className='pr-3.5 inline-flex w-11 h-11' />
+                  <img src={javascript} alt="javascript" className='pr-3.5 inline-flex w-11 h-11' />
+                  <img src={python} alt="python" className='inline-flex w-11 h-11' />
+                </div>
+                <p className="pt-10 pb-8 mb-1.5">A combination of frontend, backend, and DevOps. This track will only be available to 
+                  participants who have the time to dedicate to the training.
+                </p>
+              </div>
+            </div>
+            <div className="pt-6 pl-6 w-1/3">
+              <div className="s-box bg-white p-10">
+                <p className='s-bold-text font-bold pb-5 text-xl'>Frameworks</p>
+                <div className='w-full flex justify-start items-center'>
+                  <img src={laravel} alt="laravel" className='pr-3.5 inline-flex w-11 h-11' />
+                  <img src={react} alt="react" className='pr-3.5 inline-flex w-11 h-11' />
+                  <img src={django} alt="django" className='inline-flex w-11 h-11' />
+                </div>
+                <p className="pt-10 pb-8 mb-1.5">During the program we will be exploring several useful frameworks to give you an edge in 
+                  the industry and help you develop complex applications much faster.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className='flex justify-center items-center my-16'>
+            <Button name="Enroll Now" />
+          </div>
         </div>
       </section>
     </main>
