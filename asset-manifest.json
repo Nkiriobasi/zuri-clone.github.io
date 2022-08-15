@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/zuriclone/static/css/main.539ac706.css",
-    "main.js": "/zuriclone/static/js/main.d0af38f6.js",
+    "main.css": "/zuriclone/static/css/main.334a7bac.css",
+    "main.js": "/zuriclone/static/js/main.fcdd265e.js",
     "static/js/787.bd0d3fb6.chunk.js": "/zuriclone/static/js/787.bd0d3fb6.chunk.js",
     "static/media/lady1.jpeg": "/zuriclone/static/media/lady1.0f909780828f89f6bd50.jpeg",
     "static/media/section5-image.png": "/zuriclone/static/media/section5-image.348f9dbdb9de0f786f4f.png",
@@ -44,12 +44,12 @@
     "static/media/curve6.svg": "/zuriclone/static/media/curve6.95562d578a1f1ed02ac0bd84b98f78af.svg",
     "static/media/curve2.svg": "/zuriclone/static/media/curve2.ddc06b7223b0a84a9b552e38dc80fe69.svg",
     "static/media/curve3.svg": "/zuriclone/static/media/curve3.5ffa1f5ddaaff67d13bf5d8d3d7b2387.svg",
-    "main.539ac706.css.map": "/zuriclone/static/css/main.539ac706.css.map",
-    "main.d0af38f6.js.map": "/zuriclone/static/js/main.d0af38f6.js.map",
+    "main.334a7bac.css.map": "/zuriclone/static/css/main.334a7bac.css.map",
+    "main.fcdd265e.js.map": "/zuriclone/static/js/main.fcdd265e.js.map",
     "787.bd0d3fb6.chunk.js.map": "/zuriclone/static/js/787.bd0d3fb6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.539ac706.css",
-    "static/js/main.d0af38f6.js"
+    "static/css/main.334a7bac.css",
+    "static/js/main.fcdd265e.js"
   ]
 }
