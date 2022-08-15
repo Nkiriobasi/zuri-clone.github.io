@@ -148,8 +148,8 @@ const TrainingPage = () => {
 
 
       <section className="fourth-sec flex h-auto 2xl:px-0 px-8">
-        <div className="fourth-sec-wrapper container pt-12">
-          <div className="fs-box-wrap fs-box-wrap-bg 2xl:basis-1/3 grow-0 pt-6 pl-6">
+        <div className="flex items-center justify-center container pt-12 flex-wrap max-w-full">
+          <div className="fs-box-wrap fs-box-wrap-bg 2xl:basis-1/3 w-1/3 pt-6 pl-6">
             <div className="fs-box1 relative">
               <img src={curve1} alt="curve" className="fs-box-img absolute right-0" />
               <p className="text-6xl font-bold">01</p>
@@ -158,7 +158,7 @@ const TrainingPage = () => {
             </div>
           </div>
 
-          <div className="fs-box-wrap 2xl:basis-1/3 grow-0 pt-6 pl-6">
+          <div className="fs-box-wrap 2xl:basis-1/3 w-1/3 pt-6 pl-6">
             <div className="fs-box2 relative">
               <img src={curve2} alt="curve" className="fs-box-img absolute right-0" />
               <p className="text-6xl font-bold">02</p>
@@ -167,7 +167,7 @@ const TrainingPage = () => {
             </div>
           </div>
 
-          <div className="fs-box-wrap 2xl:basis-1/3 grow-0 pt-6 pl-6">
+          <div className="fs-box-wrap 2xl:basis-1/3 w-1/3 pt-6 pl-6">
             <div className="fs-box2 relative">
               <img src={curve3} alt="curve" className="fs-box-img absolute right-0" />
               <p className="text-6xl font-bold">03</p>
@@ -176,7 +176,7 @@ const TrainingPage = () => {
             </div>
           </div>
 
-          <div className="fs-box-wrap 2xl:basis-1/3 grow-0 pt-6 pl-6">
+          <div className="fs-box-wrap 2xl:basis-1/3 w-1/3 pt-6 pl-6">
             <div className="fs-box2 relative">
               <img src={curve4} alt="curve" className="fs-box-img absolute right-0" />
               <p className="text-6xl font-bold">04</p>
@@ -185,7 +185,7 @@ const TrainingPage = () => {
             </div>
           </div>
 
-          <div className="fs-box-wrap 2xl:basis-1/3 grow-0 pt-6 pl-6">
+          <div className="fs-box-wrap 2xl:basis-1/3 w-1/3 pt-6 pl-6">
             <div className="fs-box2 relative">
               <img src={curve5} alt="curve" className="fs-box-img absolute right-0" />
               <p className="text-6xl font-bold">05</p>
@@ -194,7 +194,7 @@ const TrainingPage = () => {
             </div>
           </div>
 
-          <div className="fs-box-wrap 2xl:basis-1/3 grow-0 pt-6 pl-6">
+          <div className="fs-box-wrap 2xl:basis-1/3 w-1/3 pt-6 pl-6">
             <div className="fs-box2 relative">
               <img src={curve6} alt="curve" className="fs-box-img absolute right-0" />
               <p className="text-6xl font-bold">06</p>
@@ -260,7 +260,7 @@ const TrainingPage = () => {
 
 
       <section className='sixth-sec'>
-        <div className='container pt-16'>
+        <div className='container pt-16 2xl:px-0 px-8'>
           <div className='flex'>
             <div className='w-1/2 pt-6 pl-6'>
               <div>
@@ -275,84 +275,84 @@ const TrainingPage = () => {
             <img src={section6} alt="img" className="w-44" />
           </div>
           
-          <div className='flex items-center flex-wrap'>
-            <div className="pt-6 pl-6 w-1/3">
+          <div className='flex items-center justify-center flex-wrap max-w-full'>
+            <div className="s-box-wrapper pt-6 pl-6 w-1/3">
               <div className="s-box bg-white p-10">
-                <p className='s-bold-text font-bold pb-5 text-xl'>Frontend Development</p>
+                <p className='s-color-text font-bold pb-5 md:text-xl text-lg'>Frontend Development</p>
                 <div className='w-full flex justify-start items-center'>
                   <img src={html} alt="html" className='pr-3.5 inline-flex w-11 h-11' />
                   <img src={css} alt="css" className='pr-3.5 inline-flex w-11 h-11' />
                   <img src={javascript} alt="javascript" className='inline-flex w-11 h-11' />
                 </div>
-                <p className="pt-10 pb-8 mb-1.5">This track deals with the aspect of your application that the users interact with. 
+                <p className="s-color-text pt-10 pb-8 mb-1.5 text-sm font-normal">This track deals with the aspect of your application that the users interact with. 
                   A front-end developer will be able to correctly interpret a given design to the user 
                   interface.
                 </p>
               </div>
             </div>
-            <div className="pt-6 pl-6 w-1/3">
+            <div className="s-box-wrapper pt-6 pl-6 w-1/3">
               <div className="s-box bg-white p-10">
-                <p className='s-bold-text font-bold pb-5 text-xl'>Backend Development</p>
+                <p className='s-color-text font-bold pb-5 md:text-xl text-lg'>Backend Development</p>
                 <div className='w-full flex justify-start items-center'>
-                  <img src={php} alt="php" className='pr-3.5 inline-flex w-11 h-11' />
-                  <img src={python} alt="python" className='pr-3.5 inline-flex w-11 h-11' />
+                  <img src={php} alt="php" className='pr-3.5 inline-flex w-20 h-11' />
+                  <img src={python} alt="python" className='pr-3.5 inline-flex w-16 h-14' />
                   <img src={javascript} alt="javascript" className='inline-flex w-11 h-11' />
                 </div>
-                <p className="pt-10 pb-8 mb-1.5">This track deals with the aspect of the application the user does not directly interact 
+                <p className="s-color-text pt-10 pb-8 mb-1.5 text-sm font-normal">This track deals with the aspect of the application the user does not directly interact 
                   with. It allows the frontend function either by running some back-end code or connecting 
                   to the database.
                 </p>
               </div>
             </div>
-            <div className="pt-6 pl-6 w-1/3">
+            <div className="s-box-wrapper pt-6 pl-6 w-1/3">
               <div className="s-box bg-white p-10">
-                <p className='s-bold-text font-bold pb-5 text-xl'>Product Design</p>
+                <p className='s-color-text font-bold pb-5 md:text-xl text-lg'>Product Design</p>
                 <div className='w-full flex justify-start items-center'>
-                  <img src={adobeXd} alt="adobeXd" className='pr-3.5 inline-flex w-11 h-11' />
-                  <img src={figma} alt="figma" className='inline-flex w-11 h-11' />
+                  <img src={adobeXd} alt="adobeXd" className='pr-3.5 inline-flex w-16 h-12' />
+                  <img src={figma} alt="figma" className='inline-flex w-24 h-12' />
                 </div>
-                <p className="pt-10 pb-8 mb-1.5">This track deals with creating a graphic plan for an application. You will learn to convert 
+                <p className="s-color-text pt-10 pb-8 mb-1.5 text-sm font-normal">This track deals with creating a graphic plan for an application. You will learn to convert 
                   project documentation into viewable and understandable graphic design for the developers to 
                   work with.
                 </p>
               </div>
             </div>
-            <div className="pt-6 pl-6 w-1/3">
+            <div className="s-box-wrapper pt-6 pl-6 w-1/3">
               <div className="s-box bg-white p-10">
-                <p className='s-bold-text font-bold pb-5 text-xl'>DevOPS</p>
+                <p className='s-color-text font-bold pb-5 md:text-xl text-lg'>DevOPS</p>
                 <div className='w-full flex justify-start items-center'>
-                  <img src={ubuntu} alt="ubuntu" className='pr-3.5 inline-flex w-11 h-11' />
-                  <img src={bash} alt="bash" className='pr-3.5 inline-flex w-11 h-11' />
-                  <img src={aws} alt="aws" className='inline-flex w-11 h-11' />
+                  <img src={ubuntu} alt="ubuntu" className='pr-3.5 inline-flex w-28 h-12' />
+                  <img src={bash} alt="bash" className='pr-3.5 inline-flex w-20 h-12' />
+                  <img src={aws} alt="aws" className='inline-flex w-20 h-12' />
                 </div>
-                <p className="pt-10 pb-8 mb-1.5">The DevOps track is an extension of the backend track. It involves tools that’ll allow the 
+                <p className="s-color-text pt-10 pb-8 mb-1.5 text-sm font-normal">The DevOps track is an extension of the backend track. It involves tools that’ll allow the 
                   participant to deploy solutions for public use.
                 </p>
               </div>
             </div>
-            <div className="pt-6 pl-6 w-1/3">
+            <div className="s-box-wrapper pt-6 pl-6 w-1/3">
               <div className="s-box bg-white p-10">
-                <p className='s-bold-text font-bold pb-5 text-xl'>Fullstack Development</p>
+                <p className='s-color-text font-bold pb-5 md:text-xl text-lg'>Fullstack Development</p>
                 <div className='w-full flex justify-start items-center'>
                   <img src={html} alt="html" className='pr-3.5 inline-flex w-11 h-11' />
                   <img src={css} alt="css" className='pr-3.5 inline-flex w-11 h-11' />
                   <img src={javascript} alt="javascript" className='pr-3.5 inline-flex w-11 h-11' />
-                  <img src={python} alt="python" className='inline-flex w-11 h-11' />
+                  <img src={python} alt="python" className='inline-flex w-16 h-14' />
                 </div>
-                <p className="pt-10 pb-8 mb-1.5">A combination of frontend, backend, and DevOps. This track will only be available to 
+                <p className="s-color-text pt-10 pb-8 mb-1.5 text-sm font-normal">A combination of frontend, backend, and DevOps. This track will only be available to 
                   participants who have the time to dedicate to the training.
                 </p>
               </div>
             </div>
-            <div className="pt-6 pl-6 w-1/3">
+            <div className="s-box-wrapper pt-6 pl-6 w-1/3">
               <div className="s-box bg-white p-10">
-                <p className='s-bold-text font-bold pb-5 text-xl'>Frameworks</p>
+                <p className='s-color-text font-bold pb-5 md:text-xl text-lg'>Frameworks</p>
                 <div className='w-full flex justify-start items-center'>
-                  <img src={laravel} alt="laravel" className='pr-3.5 inline-flex w-11 h-11' />
-                  <img src={react} alt="react" className='pr-3.5 inline-flex w-11 h-11' />
-                  <img src={django} alt="django" className='inline-flex w-11 h-11' />
+                  <img src={laravel} alt="laravel" className='pr-3.5 inline-flex w-20 h-9' />
+                  <img src={react} alt="react" className='pr-3.5 inline-flex w-20 h-9' />
+                  <img src={django} alt="django" className='inline-flex w-20 h-9' />
                 </div>
-                <p className="pt-10 pb-8 mb-1.5">During the program we will be exploring several useful frameworks to give you an edge in 
+                <p className="s-color-text pt-10 pb-8 mb-1.5 text-sm font-normal">During the program we will be exploring several useful frameworks to give you an edge in 
                   the industry and help you develop complex applications much faster.
                 </p>
               </div>
