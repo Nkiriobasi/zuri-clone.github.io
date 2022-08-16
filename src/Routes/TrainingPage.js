@@ -1,5 +1,7 @@
 import React from 'react';
 import Button from '../components/Button';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPlus } from '@fortawesome/free-solid-svg-icons';
 
 import Logo from '../assets/logo.svg';
 import Thumbs from '../assets/thumbs.png';
@@ -10,6 +12,7 @@ import Male1 from '../assets/male1.jpeg';
 import Ingresive from '../assets/ingresive.jpeg';
 import Section3Wire from '../assets/section3wire.svg';
 import Section5Wire from '../assets/section5wire.svg';
+import Section7Wire from '../assets/section7wire.svg';
 import Star from '../assets/Star.jpeg';
 import curve1 from '../assets/curve1.png';
 import curve2 from '../assets/curve2.svg';
@@ -37,6 +40,7 @@ import aws from '../assets/aws.svg';
 import laravel from '../assets/Laravel.svg';
 import react from '../assets/React.svg';
 import django from '../assets/Django.svg';
+import twitter from '../assets/twitter.svg';
 
 
 
@@ -362,6 +366,103 @@ const TrainingPage = () => {
           <div className='flex justify-center items-center my-16'>
             <Button name="Enroll Now" />
           </div>
+          <hr />
+        </div>
+      </section>
+
+
+      <section className="seventh-sec" id='faqs'>
+        <div className="container pt-8 2xl:px-0 px-8">
+          <div className="mt-2.5 ml-36">
+            <img src={Section7Wire} alt="wire" className='section7wire inline-flex' />
+          </div>
+
+          <div>
+            <p className='w-full text-center text-2xl red-text not-italic seventh-sec-small-text'>Got Questions</p>
+            <p className='w-full text-center pb-24 seventh-sec-bold-text font-bold not-italic'>Frequently Asked Questions</p>
+          </div>
+
+          <div className="faq-box1">
+            <div className="faq-row-wrapper">
+              <section className="flex flex-col justify-center items-start faq-row p-5">
+                <div className="w-full flex flex-row justify-between">
+                  <h2 className="faq-row-title pr-14 font-semibold text-lg">Would I have to pay to enroll for the training</h2>
+                  <span className="cursor-pointer">
+                    <FontAwesomeIcon icon={faPlus} />
+                  </span>
+                </div>
+
+                <div className="">
+                  <p className="">No, the program is completely free thanks to Ingressive For Good</p>
+                </div>
+              </section>
+              <section className="flex flex-col justify-center items-start faq-row p-5">
+                <div className="w-full flex flex-row justify-between">
+                  <h2 className="faq-row-title pr-14 font-semibold text-lg">What are the things I will need to participate</h2>
+                  <span className="cursor-pointer">
+                    <FontAwesomeIcon icon={faPlus} />
+                  </span>
+                </div>
+
+                <div className="">
+                  <p className="">You'll need a laptop, internet connection and the willingness to learn through collaboration and mentorship.</p>
+                </div>
+              </section>
+              <section className="flex flex-col justify-center items-start faq-row p-5">
+                <div className="w-full flex flex-row justify-between">
+                  <h2 className="faq-row-title pr-14 font-semibold text-lg">What happens if i join and I'm not active?</h2>
+                  <span className="cursor-pointer">
+                    <FontAwesomeIcon icon={faPlus} />
+                  </span>
+                </div>
+
+                <div className="">
+                  <p className="">Participants who join the program and stop engaging will be given the chance to catch up. You'll also be assigned
+                   a 'study-mate' and mentor to help you. However, there is the possibility of not being promoted to the next stage if you remain 
+                   inactive for too long
+                  </p>
+                </div>
+              </section>
+              <section className="flex flex-col justify-center items-start faq-row p-5">
+                <div className="w-full flex flex-row justify-between">
+                  <h2 className="faq-row-title pr-14 font-semibold text-lg">Can I switch from part-time track to full-time and vice-versa?</h2>
+                  <span className="cursor-pointer">
+                    <FontAwesomeIcon icon={faPlus} />
+                  </span>
+                </div>
+
+                <div className="">
+                  <p className=''>Unfortunately, no, you cannot switch from part-time to full-time and vice-versa</p>
+                </div>
+              </section>
+              <section className="flex flex-col justify-center items-start faq-row p-5">
+                <div className="w-full flex flex-row justify-between">
+                  <h2 className="faq-row-title pr-14 font-semibold text-lg">Will I get paid?</h2>
+                  <span className="cursor-pointer">
+                    <FontAwesomeIcon icon={faPlus} />
+                  </span>
+                </div>
+
+                <div className="">
+                  <p className="">We reward some participants who complete tasks early, however, this is not a weekly reward. 
+                    All the work that will be done during the program are hypothetical.
+                  </p>
+                </div>
+              </section>
+            </div>
+          </div>
+
+          <div className="w-full flex justify-center items-center pt-16 pb-10">
+            <p className="font-normal not-italic pr-2.5 pb-1.5 text-lg">Still got questions?</p>
+            <div className='bg cursor-pointer list-none text-lg py-2.5 md:px-8 px-5 font-normal inline-flex mb-1.5'>
+              <a href='/' className="flex items-center justify-center">
+                <img src={twitter} alt="twitter" className='h-7 w-8' />
+                <p className="text-base">Tweet them at us</p>
+              </a>
+            </div>
+          </div>
+
+          <hr />
         </div>
       </section>
     </main>

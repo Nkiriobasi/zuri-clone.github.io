@@ -284,6 +284,34 @@
 }
 
 
+/* seventh-sec */
+.section7wire{
+  max-width: 10.625rem;
+  height: auto;
+}
+
+.seventh-sec-small-text{
+  margin-top: -50px;
+}
+
+.seventh-sec-bold-text{
+  font-size: 2.5rem;
+  color: #1B1A20;
+}
+
+.faq-box1{
+  max-width: 1224px;
+  margin: 0 108px;
+}
+
+.faq-row{
+  border: 1px solid rgba(71,44,111,.43)!important;
+}
+
+.faq-row-title{
+  color: #333333;
+}
+
 
 
 
