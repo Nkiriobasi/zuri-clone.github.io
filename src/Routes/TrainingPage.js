@@ -50,6 +50,11 @@ import circle from '../assets/circle.png';
 import round from '../assets/round.svg';
 import mains from '../assets/mains.png';
 import curve from '../assets/curve.svg';
+import youtube from '../assets/youtube.svg';
+import linkd from '../assets/linkd.svg';
+import facebook from '../assets/facebook.svg';
+
+
 
 const TrainingPage = () => {
   return (
@@ -381,7 +386,7 @@ const TrainingPage = () => {
       <section className="seventh-sec w-full h-auto" id='faqs'>
         <div className="container pt-8 2xl:px-0 px-8">
           <div className="mt-2.5 ml-36">
-            <img src={Section7Wire} alt="wire" className='section7wire inline-flex' />
+            <img src={Section7Wire} alt="wire" className='w-1/12 inline-flex' />
           </div>
 
           <div>
@@ -477,21 +482,21 @@ const TrainingPage = () => {
       <section className="eight-sec overflow-x-hidden relative">
         <div className="container pt-8 2xl:px-0 px-8">
           <div className="mt-2.5 ml-36">
-            <img src={Section7Wire} alt="wire" className='section7wire inline-flex' />
+            <img src={Section7Wire} alt="wire" className='w-1/12 inline-flex' />
           </div>
 
           <div className="w-full star-box flex justify-end items-center">
-            <img src={star1} alt="star" className='w-44' />
+            <img src={star1} alt="star" className='w-1/12' />
           </div>
 
           <div>
-            <p className='text-center w-full eight-sec-small-text red-text text-2xl'>Structure</p>
+            <p className='text-center w-full eight-sec-small-text red-text md:text-2xl text-lg'>Structure</p>
             <p className='text-center w-full eight-sec-bold-text pb-5 font-bold'>Program Structure</p>
             <p className='text-center w-full pb-16 text-lg eight-sec-thin-text'>There two broad paths in this program based on your availability</p>
           </div>
 
-          <div className="flex">
-            <div className='move absolute left-0'>
+          <div className="flex flex-wrap">
+            <div className='move absolute left-0 2xl:block hidden'>
               <img src={move} alt="move" />
             </div>
 
@@ -697,7 +702,7 @@ const TrainingPage = () => {
 
           <div className='box9-wrapper relative'>
             <div className="">
-              <img src={round} alt="round" className='absolute left-8 mt-16' />
+              <img src={round} alt="round" className='w-1/12 round absolute left-24 mt-16' />
             </div>
             <div className="box9">
               <p className="pt-16 text-lg w-full flex justify-center text-white">Get Started</p>
@@ -705,14 +710,58 @@ const TrainingPage = () => {
               <div className="w-full flex justify-center items-center">
                 <button className='box9-btn cursor-pointer list-none text-lg py-2.5 md:px-8 px-5 font-normal inline-flex'>Enroll Now</button>
               </div>
-              <div className="">
-                <div className=''>
-                  <img src={curve} alt="curve" className='curve w-auto' />
+              <div className="flex items-end justify-between">
+                <div className='curve'>
+                  <img src={curve} alt="curve" className='' />
                 </div>
-                <div>
-                  <img src={mains} alt="mains" className='mains ' />
+                <div className='mains'>
+                  <img src={mains} alt="mains" className='' />
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section className="tenth-sec">
+        <div className="container pt-24 pb-5 2xl:px-0 px-8">
+          <div className='flex sm:flex-row flex-col items-center justify-between'>
+            <div className='pt-4 pl-4 w-1/2'>
+              <div>
+                <img src={Logo} alt="logo" className="inline-flex" />
+              </div>
+            </div>
+            <div className='pt-4 pl-4 w-1/2'>
+              <div className="flex sm:justify-end justify-center items-center">
+                <div className="w-auto inline-flex">
+                  <a href="http://" target="_blank" rel="noopener noreferrer" className='pr-2.5'>
+                    <img src={facebook} alt="facebook" />
+                  </a>
+                  <a href="http://" target="_blank" rel="noopener noreferrer" className='pr-2.5'>
+                    <img src={linkd} alt="linkedIn" />
+                  </a>
+                  <a href="http://" target="_blank" rel="noopener noreferrer" className='pr-2.5'>
+                    <img src={twitter} alt="twitter" />
+                  </a>
+                  <a href="http://" target="_blank" rel="noopener noreferrer" className='pr-2.5'>
+                    <img src={youtube} alt="youtube" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className='pt-5 flex sm:flex-row flex-col items-center justify-between'>
+            <p className="my-4 text-base footer-text font-normal">© 2022 Zuri Training</p>
+
+            <div className="flex sm:flex-row flex-col items-center justify-center sm:w-auto w-full text-center">
+              <a href="http://" target="_blank" rel="noopener noreferrer" className='mr-4'>
+                <p className="text-base footer-text font-normal my-4">Privacy Policy</p>
+              </a>
+              <a href="http://" target="_blank" rel="noopener noreferrer">
+                <p className="text-base footer-text font-normal my-4">Ingressive For Good</p>
+              </a>
             </div>
           </div>
         </div>

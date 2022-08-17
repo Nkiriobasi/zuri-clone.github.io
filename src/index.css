@@ -285,11 +285,6 @@
 
 
 /* seventh-sec */
-.section7wire{
-  max-width: 10.625rem;
-  height: auto;
-}
-
 .seventh-sec-small-text{
   margin-top: -50px;
 }
@@ -356,6 +351,10 @@
   width: 10%;
 }
 
+.round{
+  width: 15%;
+}
+
 .nineth-sec-wrapper{
   margin-top: 70px;
 }
@@ -367,7 +366,7 @@
 
 .box9-bold-text{
   font-size: 3.5rem;
-  max-width: 720px;
+  width: 42.5rem;
 }
 
 .box9-btn{
@@ -377,6 +376,11 @@
   box-shadow: rgb(0 0 0 / 20%) 0px 3px 1px -2px, rgb(0 0 0 / 14%) 0px 2px 2px 0px, rgb(0 0 0 / 12%) 0px 1px 5px 0px;
 }
 
+
+/* tenth-sec */
+.footer-text{
+  color: #1B1A20;
+}
 
 
 
@@ -425,6 +429,22 @@
 @media only screen and (max-width: 1024px){
   .program-card-wrap{
     max-width: 100%;
+  }
+
+  .box9-bold-text{
+    font-size: 2.875rem;
+    width: 35rem;
+  }
+}
+
+
+@media only screen and (max-width: 913px){
+  .eight-sec-box-wrapper{
+    width: 100%;
+  }
+
+  .eight-sec-box-wrapper{
+    padding-left: 0;
   }
 }
 
@@ -523,6 +543,20 @@
   .section3wire{
     max-width: 5rem;
   }
+
+  .seventh-sec-bold-text{
+    font-size: 1.5rem;
+  }
+
+  .eight-sec-bold-text{
+    font-size: 1.5rem;
+  }
+
+
+  .box9-bold-text{
+    font-size: 2.25rem;
+    width: 27.5rem;
+  }
 }
 
 
@@ -535,5 +569,11 @@
   /* Second-sec */
   .second-sec-p-light-text{
     text-align: center;
+  }
+
+
+  .box9-bold-text{
+    font-size: 1.625rem;
+    width: 18.75rem;
   }
 }
