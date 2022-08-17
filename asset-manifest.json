@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/zuriclone/static/css/main.32295019.css",
-    "main.js": "/zuriclone/static/js/main.8990c3fd.js",
+    "main.css": "/zuriclone/static/css/main.2136aa4b.css",
+    "main.js": "/zuriclone/static/js/main.2e533510.js",
     "static/js/787.bd0d3fb6.chunk.js": "/zuriclone/static/js/787.bd0d3fb6.chunk.js",
     "static/media/lady1.jpeg": "/zuriclone/static/media/lady1.0f909780828f89f6bd50.jpeg",
     "static/media/section5-image.png": "/zuriclone/static/media/section5-image.348f9dbdb9de0f786f4f.png",
@@ -43,8 +43,11 @@
     "static/media/twitter.svg": "/zuriclone/static/media/twitter.367d2884f32cfea6c5a1693bd12be920.svg",
     "static/media/css.svg": "/zuriclone/static/media/css.4217103bd2a051f6994530cb09c050ac.svg",
     "static/media/javascript.svg": "/zuriclone/static/media/javascript.f410ef89b7d73c57e18038e4248caea6.svg",
+    "static/media/linkd.svg": "/zuriclone/static/media/linkd.b8b3ac63832998c710b9a498936d04fb.svg",
+    "static/media/youtube.svg": "/zuriclone/static/media/youtube.ce944d48aacf709a0cd95db9e34d20b3.svg",
     "static/media/line.svg": "/zuriclone/static/media/line.7c203e24c10e87cd479d9be8d9ead36f.svg",
     "index.html": "/zuriclone/index.html",
+    "static/media/facebook.svg": "/zuriclone/static/media/facebook.5d9738fd75df7acdd824f00d445e6eca.svg",
     "static/media/Star1.svg": "/zuriclone/static/media/Star1.f59aa3ad20ff2472a028d71b36c5f500.svg",
     "static/media/curve.svg": "/zuriclone/static/media/curve.92a3adfa45ba5986ab7c56ba23ef8213.svg",
     "static/media/move.svg": "/zuriclone/static/media/move.148f4f1e8ac6fda1bd75ad7a828e3835.svg",
@@ -53,12 +56,12 @@
     "static/media/curve6.svg": "/zuriclone/static/media/curve6.95562d578a1f1ed02ac0bd84b98f78af.svg",
     "static/media/curve2.svg": "/zuriclone/static/media/curve2.ddc06b7223b0a84a9b552e38dc80fe69.svg",
     "static/media/curve3.svg": "/zuriclone/static/media/curve3.5ffa1f5ddaaff67d13bf5d8d3d7b2387.svg",
-    "main.32295019.css.map": "/zuriclone/static/css/main.32295019.css.map",
-    "main.8990c3fd.js.map": "/zuriclone/static/js/main.8990c3fd.js.map",
+    "main.2136aa4b.css.map": "/zuriclone/static/css/main.2136aa4b.css.map",
+    "main.2e533510.js.map": "/zuriclone/static/js/main.2e533510.js.map",
     "787.bd0d3fb6.chunk.js.map": "/zuriclone/static/js/787.bd0d3fb6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.32295019.css",
-    "static/js/main.8990c3fd.js"
+    "static/css/main.2136aa4b.css",
+    "static/js/main.2e533510.js"
   ]
 }
