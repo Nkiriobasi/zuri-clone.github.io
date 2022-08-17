@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/zuriclone/static/css/main.24d5dccf.css",
-    "main.js": "/zuriclone/static/js/main.c815a460.js",
+    "main.css": "/zuriclone/static/css/main.32295019.css",
+    "main.js": "/zuriclone/static/js/main.8990c3fd.js",
     "static/js/787.bd0d3fb6.chunk.js": "/zuriclone/static/js/787.bd0d3fb6.chunk.js",
     "static/media/lady1.jpeg": "/zuriclone/static/media/lady1.0f909780828f89f6bd50.jpeg",
     "static/media/section5-image.png": "/zuriclone/static/media/section5-image.348f9dbdb9de0f786f4f.png",
@@ -11,6 +11,7 @@
     "static/media/Star.jpeg": "/zuriclone/static/media/Star.9d53747af13b306258ff.jpeg",
     "static/media/bash.svg": "/zuriclone/static/media/bash.279d3716bc6a8a9dbed3c798eec03eb2.svg",
     "static/media/ingresive.jpeg": "/zuriclone/static/media/ingresive.396b9bf2d479bceb3e14.jpeg",
+    "static/media/mains.png": "/zuriclone/static/media/mains.9ca36b2f25a58c25e811.png",
     "static/media/thumbs.png": "/zuriclone/static/media/thumbs.025861ce6e78c3bfe06a.png",
     "static/media/hand.svg": "/zuriclone/static/media/hand.eaf7f46e89e858998c7f89a0618019dc.svg",
     "static/media/zuri-internship-img.svg": "/zuriclone/static/media/zuri-internship-img.ae4218a9568361d766b5c3276b4bf8fc.svg",
@@ -45,18 +46,19 @@
     "static/media/line.svg": "/zuriclone/static/media/line.7c203e24c10e87cd479d9be8d9ead36f.svg",
     "index.html": "/zuriclone/index.html",
     "static/media/Star1.svg": "/zuriclone/static/media/Star1.f59aa3ad20ff2472a028d71b36c5f500.svg",
+    "static/media/curve.svg": "/zuriclone/static/media/curve.92a3adfa45ba5986ab7c56ba23ef8213.svg",
     "static/media/move.svg": "/zuriclone/static/media/move.148f4f1e8ac6fda1bd75ad7a828e3835.svg",
     "static/media/curve4.svg": "/zuriclone/static/media/curve4.c46c7bdc9688829c6ae6efdd518e830a.svg",
     "static/media/curve5.svg": "/zuriclone/static/media/curve5.bd4bab7f8a889085a26c44a9a56232fa.svg",
     "static/media/curve6.svg": "/zuriclone/static/media/curve6.95562d578a1f1ed02ac0bd84b98f78af.svg",
     "static/media/curve2.svg": "/zuriclone/static/media/curve2.ddc06b7223b0a84a9b552e38dc80fe69.svg",
     "static/media/curve3.svg": "/zuriclone/static/media/curve3.5ffa1f5ddaaff67d13bf5d8d3d7b2387.svg",
-    "main.24d5dccf.css.map": "/zuriclone/static/css/main.24d5dccf.css.map",
-    "main.c815a460.js.map": "/zuriclone/static/js/main.c815a460.js.map",
+    "main.32295019.css.map": "/zuriclone/static/css/main.32295019.css.map",
+    "main.8990c3fd.js.map": "/zuriclone/static/js/main.8990c3fd.js.map",
     "787.bd0d3fb6.chunk.js.map": "/zuriclone/static/js/787.bd0d3fb6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.24d5dccf.css",
-    "static/js/main.c815a460.js"
+    "static/css/main.32295019.css",
+    "static/js/main.8990c3fd.js"
   ]
 }
