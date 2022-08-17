@@ -1,7 +1,7 @@
 import React from 'react';
 import Button from '../components/Button';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPlus } from '@fortawesome/free-solid-svg-icons';
+import { faPlus, faDotCircle } from '@fortawesome/free-solid-svg-icons';
 
 import Logo from '../assets/logo.svg';
 import Thumbs from '../assets/thumbs.png';
@@ -41,8 +41,15 @@ import laravel from '../assets/Laravel.svg';
 import react from '../assets/React.svg';
 import django from '../assets/Django.svg';
 import twitter from '../assets/twitter.svg';
-
-
+import star1 from '../assets/Star1.svg';
+import move from '../assets/move.svg';
+import clarity from '../assets/clarity.svg';
+// import hour from '../assets/hour.png';
+// import time from '../assets/time.png';
+import circle from '../assets/circle.png';
+import round from '../assets/round.svg';
+import mains from '../assets/mains.png';
+import curve from '../assets/curve.svg';
 
 const TrainingPage = () => {
   return (
@@ -371,7 +378,7 @@ const TrainingPage = () => {
       </section>
 
 
-      <section className="seventh-sec" id='faqs'>
+      <section className="seventh-sec w-full h-auto" id='faqs'>
         <div className="container pt-8 2xl:px-0 px-8">
           <div className="mt-2.5 ml-36">
             <img src={Section7Wire} alt="wire" className='section7wire inline-flex' />
@@ -463,6 +470,251 @@ const TrainingPage = () => {
           </div>
 
           <hr />
+        </div>
+      </section>
+
+
+      <section className="eight-sec overflow-x-hidden relative">
+        <div className="container pt-8 2xl:px-0 px-8">
+          <div className="mt-2.5 ml-36">
+            <img src={Section7Wire} alt="wire" className='section7wire inline-flex' />
+          </div>
+
+          <div className="w-full star-box flex justify-end items-center">
+            <img src={star1} alt="star" className='w-44' />
+          </div>
+
+          <div>
+            <p className='text-center w-full eight-sec-small-text red-text text-2xl'>Structure</p>
+            <p className='text-center w-full eight-sec-bold-text pb-5 font-bold'>Program Structure</p>
+            <p className='text-center w-full pb-16 text-lg eight-sec-thin-text'>There two broad paths in this program based on your availability</p>
+          </div>
+
+          <div className="flex">
+            <div className='move absolute left-0'>
+              <img src={move} alt="move" />
+            </div>
+
+            <div className='flex pt-10 pl-10 w-2/4 eight-sec-box-wrapper'>
+              <div className="w-full py-16 px-12 eight-sec-box text-white">
+                <p className="pb-4 text-4xl font-bold not-italic w-full">Full-time</p>
+
+                <p className="w-11/12 text-base pb-5 not-italic">Requires at least 25 hours weekly on program content.</p>
+
+                <p className="text-lg w-11/12 font-black not-italic leading-snug">Available Tracks:</p>
+                <div className="flex justify-start items-start">
+                  <div className="h-6 w-4 flex items-center pr-2.5">
+                    <FontAwesomeIcon icon={faDotCircle} className="w-1.5 h-1.5" />
+                  </div>
+                  <p className="leading-snug text-base">Full Stack: Backend (Python, JavaScript), Frontend (HTML, CSS, JavaScript) &amp; DevOps</p>
+                </div>
+                <div className="flex justify-start items-start pb-4">
+                  <div className="h-6 w-4 flex items-center pr-2.5">
+                    <FontAwesomeIcon icon={faDotCircle} className="w-1.5 h-1.5" />
+                  </div>
+                  <p className="leading-snug text-base w-11/12">Design: Figma, Adobe XD</p>
+                </div>
+
+                <p className="text-lg w-11/12 font-black not-italic leading-snug">Phases:</p>
+                <div className="flex justify-start items-start">
+                  <div className="h-6 w-4 flex items-center pr-2.5">
+                    <FontAwesomeIcon icon={faDotCircle} className="w-1.5 h-1.5" />
+                  </div>
+                  <p className="leading-snug text-base w-11/12">Training Phase</p>
+                </div>
+                <div className="flex justify-start items-start pb-4">
+                  <div className="h-6 w-4 flex items-center pr-2.5">
+                    <FontAwesomeIcon icon={faDotCircle} className="w-1.5 h-1.5" />
+                  </div>
+                  <p className="leading-snug text-base w-11/12">Project Phase</p>
+                </div>
+
+                <p className="text-lg w-11/12 font-black not-italic leading-snug">Post Program:</p>
+                <div className="flex justify-start items-start">
+                  <div className="h-6 w-4 flex items-center pr-2.5">
+                    <FontAwesomeIcon icon={faDotCircle} className="w-1.5 h-1.5" />
+                  </div>
+                  <p className="leading-snug text-base w-11/12">Certification of Attendance</p>
+                </div>
+                <div className="flex justify-start items-start">
+                  <div className="h-6 w-4 flex items-center pr-2.5">
+                    <FontAwesomeIcon icon={faDotCircle} className="w-1.5 h-1.5" />
+                  </div>
+                  <div className="inline-flex items-center justify-start w-11/12">
+                    <p className="leading-snug text-base pr-2 underline cursor-pointer">Zuri Internship</p>
+                    <img src={clarity} alt="clarity" className='w-4 h-4' />
+                  </div>
+                </div>
+                <div className="flex justify-start items-start">
+                  <div className="h-6 w-4 flex items-center pr-2.5">
+                    <FontAwesomeIcon icon={faDotCircle} className="w-1.5 h-1.5" />
+                  </div>
+                  <div className="inline-flex items-center justify-start w-11/12">
+                    <p className="leading-snug text-base pr-2 underline cursor-pointer">Laptop Reward (upgrade or new one)</p>
+                    <img src={clarity} alt="clarity" className='w-4 h-4' />
+                  </div>
+                </div>
+                <div className="flex justify-start items-start">
+                  <div className="h-6 w-4 flex items-center pr-2.5">
+                    <FontAwesomeIcon icon={faDotCircle} className="w-1.5 h-1.5" />
+                  </div>
+                  <div className="inline-flex items-center justify-start w-11/12">
+                    <p className="leading-snug text-base pr-2 underline cursor-pointer">Job Placement</p>
+                    <img src={clarity} alt="clarity" className='w-4 h-4' />
+                  </div>
+                </div>
+                <div className="flex justify-start items-start">
+                  <div className="h-6 w-4 flex items-center pr-2.5">
+                    <FontAwesomeIcon icon={faDotCircle} className="w-1.5 h-1.5" />
+                  </div>
+                  <div className="inline-flex items-center justify-start w-11/12">
+                    <p className="leading-snug text-base pr-2 underline cursor-pointer">Zuri Talent Pool</p>
+                    <img src={clarity} alt="clarity" className='w-4 h-4' />
+                  </div>
+                </div>
+                <div className="flex justify-start items-start">
+                  <div className="h-6 w-4 flex items-center pr-2.5">
+                    <FontAwesomeIcon icon={faDotCircle} className="w-1.5 h-1.5" />
+                  </div>
+                  <div className="inline-flex items-center justify-start w-11/12">
+                    <p className="leading-snug text-base pr-2 underline cursor-pointer">More Training:</p>
+                    <img src={clarity} alt="clarity" className='w-4 h-4' />
+                  </div>
+                </div>
+                <div className="flex justify-start items-start">
+                  <div className="pr-4"></div>
+                  <p className="leading-snug text-base w-11/12">Interview Prep</p>
+                </div>
+                <div className="flex justify-start items-start">
+                  <div className="pr-4"></div>
+                  <p className="leading-snug text-base w-11/12">Alogarithms &amp; Data Structure</p>
+                </div>
+                <div className="flex justify-start items-start">
+                  <div className="pr-4"></div>
+                  <p className="leading-snug text-base w-11/12">Freelance Setup &amp; Training</p>
+                </div>
+                <div className="flex justify-start items-start">
+                  <div className="pr-4"></div>
+                  <p className="leading-snug text-base w-11/12">LinkedIn Optimization</p>
+                </div>
+                <div className="flex justify-start items-start">
+                  <div className="pr-4"></div>
+                  <p className="leading-snug text-base w-11/12">CV Review</p>
+                </div>
+
+                {/* <img src={hour} alt="hour" className='w-1/5 hour inline-flex float-right' /> */}
+              </div>
+            </div>
+
+
+            <div className='flex pt-10 pl-10 w-2/4 eight-sec-box-wrapper'>
+              <div className="w-full py-16 px-12 eight-sec-box text-white">
+                <p className="pb-4 text-4xl font-bold not-italic w-full">Part-time</p>
+
+                <p className="w-11/12 text-base pb-5 not-italic">Requires at least 11 hours weekly on program content.</p>
+
+                <p className="text-lg w-11/12 font-black not-italic">Available Tracks:</p>
+                <div className="flex justify-start items-start">
+                  <div className="h-6 w-4 flex items-center pr-2.5">
+                    <FontAwesomeIcon icon={faDotCircle} className="w-1.5 h-1.5" />
+                  </div> 
+                  <p className="leading-snug text-base w-11/12">Frontend:</p>
+                </div>
+                <div className="flex justify-start items-start pb-4">
+                  <div className="pr-4"></div>
+                  <p className="leading-snug text-base w-11/12">HTML, CSS, Javascript</p>
+                </div>
+
+                <div className="flex justify-start items-start">
+                  <div className="h-6 w-4 flex items-center pr-2.5">
+                    <FontAwesomeIcon icon={faDotCircle} className="w-1.5 h-1.5" />
+                  </div> 
+                  <p className="leading-snug text-base w-11/12">Backend: Can only select one backend language</p>
+                </div>
+                <div className="flex justify-start items-start">
+                  <div className="pr-4"></div>
+                  <p className="leading-snug text-base w-11/12">Python,</p>
+                </div>
+                <div className="flex justify-start items-start">
+                  <div className="pr-4"></div>
+                  <p className="leading-snug text-base w-11/12">PHP,</p>
+                </div>
+                <div className="flex justify-start items-start pb-4">
+                  <div className="pr-4"></div>
+                  <p className="leading-snug text-base w-11/12">Javascript</p>
+                </div>
+
+                <div className="flex justify-start items-start">
+                  <div className="h-6 w-4 flex items-center pr-2.5">
+                    <FontAwesomeIcon icon={faDotCircle} className="w-1.5 h-1.5" />
+                  </div> 
+                  <p className="leading-snug text-base w-11/12">Design:</p>
+                </div>
+                <div className="flex justify-start items-start pb-4">
+                  <div className="pr-4"></div>
+                  <p className="leading-snug text-base w-11/12">Figma</p>
+                </div>
+
+                <p className="text-lg w-11/12 font-black not-italic leading-snug">Phases:</p>
+                <div className="flex justify-start items-start">
+                  <div className="h-6 w-4 flex items-center pr-2.5">
+                    <FontAwesomeIcon icon={faDotCircle} className="w-1.5 h-1.5" />
+                  </div>
+                  <p className="leading-snug text-base w-11/12">Training Phase</p>
+                </div>
+
+                <p className="text-lg w-11/12 font-black not-italic leading-snug">Post Program:</p>
+                <div className="flex justify-start items-start">
+                  <div className="h-6 w-4 flex items-center pr-2.5">
+                    <FontAwesomeIcon icon={faDotCircle} className="w-1.5 h-1.5" />
+                  </div>
+                  <p className="leading-snug text-base w-11/12">Certification of Attendance</p>
+                </div>
+                <div className="flex justify-start items-start">
+                  <div className="h-6 w-4 flex items-center pr-2.5">
+                    <FontAwesomeIcon icon={faDotCircle} className="w-1.5 h-1.5" />
+                  </div>
+                  <p className="leading-snug text-base pr-2 underline cursor-pointer w-11/12">Zuri Internship</p>
+                </div>
+
+                {/* <img src={time} alt="time" className='w-2/5 time inline-flex float-right' /> */}
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <img src={circle} alt="circle" className='circle w-2/12 float-right inline-flex' />
+          </div>
+        </div>
+      </section>
+
+
+      <section className="nineth-sec">
+        <div className="container nineth-sec-wrapper pt-12 2xl:px-0 px-8">
+          <div>
+            <img src={circle} alt="circle" className='circle1 mb-7' />
+          </div>
+
+          <div className='box9-wrapper relative'>
+            <div className="">
+              <img src={round} alt="round" className='absolute left-8 mt-16' />
+            </div>
+            <div className="box9">
+              <p className="pt-16 text-lg w-full flex justify-center text-white">Get Started</p>
+              <p className="box9-bold-text pt-5 pb-10 text-white mx-auto font-bold text-center leading-tight">Break into the tech industry like a Pro</p>
+              <div className="w-full flex justify-center items-center">
+                <button className='box9-btn cursor-pointer list-none text-lg py-2.5 md:px-8 px-5 font-normal inline-flex'>Enroll Now</button>
+              </div>
+              <div className="">
+                <div className=''>
+                  <img src={curve} alt="curve" className='curve w-auto' />
+                </div>
+                <div>
+                  <img src={mains} alt="mains" className='mains ' />
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </main>
