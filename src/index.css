@@ -152,6 +152,10 @@
 
 
 /* First-sec */
+.first-sec{
+  background: #fff;
+}
+
 .first-sec-wrapper{
   display: flex;
   align-items: center;
@@ -173,6 +177,10 @@
 
 
 /* Second-sec */
+.second-sec{
+  background: #fff;
+}
+
 .green-text{
   color: #43B97F;
 }

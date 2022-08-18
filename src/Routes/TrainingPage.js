@@ -113,7 +113,7 @@ const TrainingPage = () => {
       </section>
 
 
-      <section className="flex h-auto 2xl:px-0 px-8" id="about">
+      <section className="second-sec flex h-auto 2xl:px-0 px-8" id="about">
         <div className="container pt-12">
         <hr className='hr-line' />
         <div className="second-sec-wrapper flex items-center justify-center">
