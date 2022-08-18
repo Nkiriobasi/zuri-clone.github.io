@@ -60,8 +60,8 @@ const TrainingPage = () => {
   return (
     <main className='training-page'>
       <div>
-        <header className='header w-full fixed top-0 z-10 py-3.5 md:px-8 px-6'>
-          <div className='header-container flex justify-between items-center'>
+        <header className='header h-24 flex w-full fixed top-0 z-10 py-3.5 md:px-8 px-6'>
+          <div className='header-container w-full flex flex-row justify-between items-center'>
             <img src={Logo} alt="logo" className='cursor-pointer xl:w-72 md:w-56 sm:w-40 w-32' />
 
             <nav className='flex items-center'>
